@@ -9,6 +9,10 @@ int main()
    int sum;
    count=sizeof(arr)/sizeof(arr[0][0]);
 
+   //sizeof(arr)=get size dari array arr keseluruhan
+//    sizeof(arr[0])=get size dari elemen pada array dimensi satu
+// sizeof(arr[0])=get size dari array per eleemen
+
    for (int i = 0; i < sizeof(arr)/sizeof(arr[0]); i++)
    {
      for(int j=0;j< sizeof(arr[0])/ sizeof(arr[0][0]);j++)
